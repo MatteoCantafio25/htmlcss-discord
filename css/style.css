@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 .flex-container{
     height: 80px;
     min-width: 100%;
@@ -14,40 +18,127 @@
     justify-content: center;
 }
 
+.border{
+    border: 1px solid black;
+}
+
 .logo{
-    background-color: #DAA520;
-    border: 2px dashed black;
     height: 40px;
     width: 200px;
+    margin-right: 80px;
 }
 .link{
-    background-color: #DAA520;
-    border: 2px dashed black;
     height: 40px;
     width: 700px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 600;
 }
 
 .login{
-    background-color: #DAA520;
-    border: 2px dashed black;
-    height: 40px;
+    justify-content: flex-end;
+    color: black;
+    background-color: white;
+    border-radius: 35px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: 80px;
+}
+
+.bg-blue{
+    background-color: #255EE9;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    color: black;
+    background-color: white;
+    border-radius: 35px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 0.9rem;
+    height: 30px;
+    width: 80px;
+}
+
+.btn-white{
+    color: black;
+    background-color: white;
+    border-radius: 35px;
+    height: 50px;
     width: 200px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.2rem;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.btn-black{
+    color: white;
+    background-color: #23272A;
+    border-radius: 35px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.flex{
+    display: flex;
 }
 
 .blue-container{
     min-height: 500px;
     min-width: 100%;
     display: flex;
-    background-color: #00008B;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
 }
 
 .lilla-box{
-    background-color: #EE82EE;
-    border: 2px dashed black;
     height: 400px;
     width: 800px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.main{
+    padding-bottom: 30px
+}
+
+.desc{
+    padding-bottom: 10px;
+}
+
+.miao{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.txt-xxl{
+    font-size: 50px;
+}
+
+.txt-xl{
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .white-container{
