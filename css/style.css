@@ -126,7 +126,7 @@ a{
     padding-bottom: 10px;
 }
 
-.miao{
+.btn-box{
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
@@ -147,40 +147,106 @@ a{
     display: flex;
     background-color: white;
     align-items: center;
-    justify-content: center;
-    padding: 40px 40px;
+    justify-content: space-around;
 }
 
-.blue-box{
-    background-color: #1E90FF;
+.large-box{
     border: 2px dashed black;
     height: 450px;
     width: 650px;
 }
 
-.light-pink-box{
-    background-color: #FFC0CB;
+.pet-photos{
+    background-image: url(/img/item1.svg);
+}
+
+.small-box{
     border: 2px dashed black;
     height: 450px;
     width: 450px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 135px;
+}
+
+
+.luogo{
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+
+.luogo-top{
+    padding-top: 30px;
+}
+
+.trovarsi{
+    height: 450px;
+    width: 450px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 150px;
+    margin-bottom: 150px;
+}
+
+.dove-box{
+    border: 2px dashed black;
+    height: 450px;
+    width: 450px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-left: 135px;
+    margin-right: 200px;
+}
+
+
+.voice{
+    background-image: url(/img/item2.svg);
+}
+
+.coach{
+    background-image: url(/img/item3.svg);
+}
+
+.pochi-box{
+    border: 2px dashed black;
+    height: 450px;
+    width: 450px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+    margin-left: 30px;
 }
 
 .grey-container{
     min-height: 500px;
     min-width: 100%;
-    display: flex;
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
     align-items: center;
-    justify-content: center;
+    margin: 0 auto;
     padding: 40px 40px;
+    justify-content: center;
 }
 
 .green-box{
-    background-color: #228B22;
     border: 2px dashed black;
     height: 800px;
     width: 1100px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
+
+.chillin{
+    width: 1100px;
+    max-height: 700px;
+}
+
 
 .dark-grey-container{
     min-height: 500px;
@@ -192,15 +258,49 @@ a{
     padding: 20px 40px;
 }
 
-.pink-box{
-    background-color: #F08080;
+.pronto-container{
+    height: 200px;
+    min-width: 100%;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pronto-box{
+    background-image: url(/img/stars.svg);
+    width: 500px;
+    height: 200px;
     border: 2px dashed black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-blue{
+    color: black;
+    background-color:#8EA1E1;
+    border-radius: 35px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.2rem;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.pink-box{
+    background-color: #23272A;
+    border: 2px dashed white;
     height: 580px;
     width: 300px;
 }
 
 .cian-box{
-    background-color: #20B2AA;
+    background-color: #23272A;
     border: 2px dashed white;
     height: 580px;
     width: 200px;
@@ -218,7 +318,7 @@ a{
 
 
 .acqua-container{
-    background-color: #7FFFD4;
+    background-color: #23272A;
     height: 80px;
     width: 1100px;
     display: flex;
@@ -228,8 +328,8 @@ a{
 }
 
 .ciao{
-    background-color: #FFB6C1;
-    border: 2px dashed black;
+    background-color: #23272A;
+    border: 2px dashed white;
     height: 30px;
     width: 80px;
 }
