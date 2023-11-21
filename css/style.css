@@ -155,7 +155,7 @@ a{
 }
 
 .pet-photos{
-    background-image: url(/img/item1.svg);
+    background-image: url(../img/item1.svg);
 }
 
 .small-box{
@@ -206,11 +206,11 @@ h1{
 
 
 .voice{
-    background-image: url(/img/item2.svg);
+    background-image: url(../img/item2.svg);
 }
 
 .coach{
-    background-image: url(/img/item3.svg);
+    background-image: url(../img/item3.svg);
 }
 
 .pochi-box{
@@ -269,7 +269,7 @@ h1{
 }
 
 .pronto-box{
-    background-image: url(/img/stars.svg);
+    background-image: url(../img/stars.svg);
     width: 500px;
     height: 200px;
     background-repeat: no-repeat;
